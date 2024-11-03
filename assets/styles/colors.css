@@ -18,9 +18,9 @@
     background-color: var(--rs-yellow);
 }
 
-/* .bg-rs-gray-100 {
+.bg-rs-gray-100 {
     background-color: var(--rs-gray-100);
-} */
+}
 
 .bg-rs-gray-200 {
     background-color: var(--rs-gray-200);
@@ -48,4 +48,16 @@
 
 .txt--rs-gray-500 {
     color: var(--rs-gray-500);
+}
+
+.txt--rs-gray-400 {
+    color: var(--rs-gray-400);
+}
+
+.txt--rs-blue {
+    color: var(--rs-blue);
+}
+
+.txt--rs-red {
+    color: var(--rs-red);
 }

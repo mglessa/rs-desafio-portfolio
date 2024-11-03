@@ -1,6 +1,6 @@
 <?php
         
-    $tags = isset($project['stack']) ? $project['stack'] : [];
+    $tags = isset($project['stack']) ? $project['stack'] : ['HTML', 'CSS', 'Javascript', 'PHP', 'Git'];
     $technologies = [
         "HTML" => ["color" => "bg-rs-red", "stack" => "frontend"],
         "CSS" => ["color" => "bg-rs-blue", "stack" => "frontend"],
@@ -11,6 +11,6 @@
 
     foreach ($tags as $tag) {
         if (isset($technologies[$tag])) {
-            echo "<span class=\"txt-text-md px-3 py rounded {$technologies[$tag]['color']}\">{$tag}</span>";
+            echo "<span class=\"{$classTag} {$technologies[$tag]['color']}\">{$tag}</span>";
         }
     }

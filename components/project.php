@@ -1,17 +1,11 @@
-<?php 
-    $project['title'] = 'Project 1';
-    $project['description'] = 'This is a project description';
-    $project['stack'] = ['HTML', 'CSS'];
-?>
-
-<div class='flex p-3 bg-rs-gray-300 rounded gap-8'>
-    <div class="w-1/5 bg-rs-gray-200 rounded">
-
+<div class='flex p-3 bg-rs-gray-300 rounded gap-8 cursor-pointer project'>
+    <div class="w-60 h-32 bg-rs-gray-200 rounded">
+        <img class="w-60 h-32 bg-rs-gray-200 rounded" src="<?=$project['src']?>" alt="Thumnail">
     </div>
-    <div class="w-4/5">
+    <div class="flex-1">
         <h2 class="txt--title-sm txt--rs-gray-600"><?=$project['title']?></h2>
         <p class="txt--text-sm txt--rs-gray-500 mt-2 mb-8"><?=$project['description']?></p>
-        <div class="flex gap-2">
+        <div class="flex gap-2 flex-wrap">
             <?php include './components/tag.php';?>
         </div>
     </div>

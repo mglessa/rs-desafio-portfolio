@@ -14,19 +14,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
-<body>
-    <i class="ph ph-smiley"></i>
-    <i class="ph-fill ph-heart" style="color: hotpink"></i>
-    <i class="ph-thin ph-cube"></i>
-
-    <?php include './components/tag.php';?>
-
-    <?php $project['stack'] = ['HTML', 'CSS']?>
-    <?php include './components/tag.php';?>
-
-    <div>
-        <?php include './components/project.php';?>
-    </div>
-
+<body class="bg-rs-gray-200">
+    <!-- <i class="ph-fill ph-heart" style="color: hotpink"></i> -->
+    <?php include './components/header.php'?>
+    <?php include './components/main.php'?>
+    <footer>
+        aaa
+    </footer>
 </body>
 </html>

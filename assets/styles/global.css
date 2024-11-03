@@ -2,3 +2,24 @@
 @import './typography.css';
 @import './colors.css';
 
+header {
+    background-image: url('/assets/images/Background_Intro.png');
+    background-size: cover;
+    background-position: center;
+}
+
+header img {
+    outline-width: 4px;
+    outline-color: var(--rs-red);
+    outline-style: solid;
+}
+
+.project:hover {
+    outline-width: 2px;
+    outline-color: var(--rs-gray-600);
+    outline-style: solid;
+}
+
+.teste  {
+    background-color: red;
+}
