@@ -1,53 +1,53 @@
-.title-lg{
+.txt--title-lg{
     font-family: "Asap", sans-serif;
     font-size: 3.5rem;
     line-height: 120%;
     font-weight: 700;
 }
 
-.title-md{
+.txt--title-md{
     font-family: "Asap", sans-serif;
     font-size: 1.5rem;
     line-height: 120%;
     font-weight: 700;
 }
 
-.title-sm {
+.txt--title-sm {
     font-family: "Asap", sans-serif;
     font-size: 1rem;
     line-height: 120%;
     font-weight: 700;
 }
 
-.subtitle {
+.txt--subtitle {
     font-family: "Inconsolata", monospace;
     font-size: 1.25rem;
     line-height: 120%;
     font-weight: 400;
 }
 
-.tag-md {
+.txt--tag-md {
     font-family: "Inconsolata", monospace;
     font-size: 1rem;
     line-height: 120%;
     font-weight: 700;
 }
 
-.tag-sm {
+.txt--tag-sm {
     font-family: "Inconsolata", monospace;
     font-size: 0.75rem;
     line-height: 120%;
     font-weight: 700;
 }
 
-.text-md {
+.txt--text-md {
     font-family: "Maven Pro", sans-serif;
     font-size: 1rem;
     line-height: 140%;
     font-weight: 400;
 }
 
-.text-sm {
+.txt--text-sm {
     font-family: "Maven Pro", sans-serif;
     font-size: 0.875rem;
     line-height: 140%;

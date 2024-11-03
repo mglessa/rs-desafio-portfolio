@@ -1,0 +1,22 @@
+{
+    "HTML": {
+        "color": "bg-red",
+        "application": "frontend"
+    },
+    "CSS": {
+        "color": "bg-blue",
+        "application": "frontend"
+    },
+    "Javascript": {
+        "color": "bg-yellow",
+        "application": "frontend"
+    },
+    "PHP": {
+        "color": "bg-purple",
+        "application": "backend"
+    },
+    "Git": {
+        "color": "bg-green",
+        "application": "both"
+    }
+}
