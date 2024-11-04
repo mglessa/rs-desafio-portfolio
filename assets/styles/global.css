@@ -20,6 +20,14 @@ header img {
     outline-style: solid;
 }
 
-.teste  {
-    background-color: red;
+footer {
+    background-image: url('/assets/images/Background_Contacts.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.button:hover {
+    outline-width: 2px;
+    outline-color: var(--rs-blue);
+    outline-style: solid;
 }

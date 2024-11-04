@@ -1,45 +1,29 @@
-.bg-rs-red {
+.bg--rs-red {
     background-color: var(--rs-red);
 }
 
-.bg-rs-purple {
+.bg--rs-purple {
     background-color: var(--rs-purple);
 }
 
-.bg-rs-blue {
+.bg--rs-blue {
     background-color: var(--rs-blue);
 }
 
-.bg-rs-green {
+.bg--rs-green {
     background-color: var(--rs-green);
 }
 
-.bg-rs-yellow {
+.bg--rs-yellow {
     background-color: var(--rs-yellow);
 }
 
-.bg-rs-gray-100 {
-    background-color: var(--rs-gray-100);
-}
-
-.bg-rs-gray-200 {
+.bg--rs-gray-200 {
     background-color: var(--rs-gray-200);
 }
 
-.bg-rs-gray-300 {
+.bg--rs-gray-300 {
     background-color: var(--rs-gray-300);
-}
-
-/* .bg-rs-gray-400 {
-    background-color: var(--rs-gray-400);
-}
-
-.bg-rs-gray-500 {
-    background-color: var(--rs-gray-500);
-} */
-
-.bg-rs-gray-600 {
-    background-color: var(--rs-gray-600);
 }
 
 .txt--rs-gray-600 {
@@ -60,4 +44,8 @@
 
 .txt--rs-red {
     color: var(--rs-red);
+}
+
+.txt--rs-purple {
+    color: var(--rs-purple);
 }

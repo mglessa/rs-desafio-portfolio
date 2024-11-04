@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,12 +14,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
-<body class="bg-rs-gray-200">
-    <!-- <i class="ph-fill ph-heart" style="color: hotpink"></i> -->
-    <?php include './components/header.php'?>
-    <?php include './components/main.php'?>
-    <footer>
-        aaa
-    </footer>
+<body class="bg--rs-gray-200">
+    <?php
+        include './data/database.php';
+        include './components/header.php';
+        include './components/main.php';
+        include './components/footer.php';
+    ?>
 </body>
 </html>

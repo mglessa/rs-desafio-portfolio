@@ -6,7 +6,7 @@
     <section class="max-w-screen-lg text-center mx-auto">
         <div class="mx-auto w-60 h-60 rounded-full bg-gray-200 mb-14">
             <img class="w-full h-full rounded-full"
-                src="/assets/images/kratos.jpg" alt="">
+                src="/assets/images/kratos.jpg" alt="Foto perfil">
         </div>
         <h2 class="txt--subtitle txt--rs-gray-500 mb-2">Hello World! Meu nome é <span class="txt--rs-red">Matheus Lessa</span> e sou</h2>
         <h1 class="txt--title-lg txt--rs-gray-600 mb-5">Desenvolvedor Web</h1>
